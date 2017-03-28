@@ -1,0 +1,38 @@
+{
+  "name": "beers",
+  "version": "1.0.0",
+  "description": "A project to show the idea of the beers's company",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelbenetti/beers.git"
+  },
+  "keywords": [
+    "beer",
+    "drink",
+    "landing-page"
+  ],
+  "author": "Rafael de Oliveira Benetti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelbenetti/beers/issues"
+  },
+  "homepage": "https://github.com/rafaelbenetti/beers#readme",
+  "dependencies": {
+    "autoprefixer": "^6.7.7",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-chmod": "^2.0.0",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1"
+  }
+}
