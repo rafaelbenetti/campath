@@ -1,3 +1,31 @@
-body {
-    font-size: 16px;
+$primary-color: #2ABB9B;
+$second-color: #019875;
+$primary-text-color: #fff;
+
+body {    
+    font-size: 25px;
+    margin: 0;    
+    text-align: center;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+    margin: 0;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    color: $primary-text-color;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    background: $second-color;
+    &:hover {
+        cursor: pointer;
+    }
+    &:focus {
+        outline: none;
+    }
 }
