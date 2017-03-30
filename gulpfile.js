@@ -13,7 +13,7 @@ const chmod = require('gulp-chmod');
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 
-const publicFolder = 'src/';
+const publicFolder = 'src/public/';
 const scriptsPath = [publicFolder + 'js/*.js'];
 
 gulp.task('delete', () => {
